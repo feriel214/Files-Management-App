@@ -30,12 +30,12 @@ If you want to discover more details about the project, the links below contains
 - 📌 Presentation : https://drive.google.com/file/d/1fLnIKHGjpmlj1pHuLnLnXebQ3U1EzmkR/view?usp=share_link
 # Screenshots 
 <div class="gallery">
-    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/login.PNG" alt="login" >
-    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/register.PNG" alt="register" >
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/1.PNG" alt="image" >
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/2.PNG" alt="image" >
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/3.PNG" alt="image" >
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/4.PNG" alt="image" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/login.PNG" alt="login" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/register.PNG" alt="register" >
 </div>
 
 # Contributing
