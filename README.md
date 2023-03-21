@@ -1,7 +1,8 @@
 # Files Management App
-This project is a file management web application made in the context of an internship at **The National Post Office**. 
+- This project is a file management web application made in the context of an internship at **The National Post Office**. 
 The application allows for managing and sharing files securely between several departments.
-- Languages and Tools:
+- **Goal** : The purpose of the application is to enhance file management by automating processes and improving accessibility. It enables users to send and download files quickly and efficiently, while also streamlining the visualization of files issued by personnel to simplify workflow.
+- **Languages and Tools**:
 <p align="left"> 
 <a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
 <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
@@ -11,4 +12,28 @@ The application allows for managing and sharing files securely between several d
 <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> 
 <a href="https://symfony.com" target="_blank" rel="noreferrer"> <img src="https://symfony.com/logos/symfony_black_03.svg" alt="symfony" width="40" height="40"/> </a> </p>
 
+# Features
+- Secure file management and sharing between departments
+- User authentication 
+- File encryption and decryption for enhanced security
+- Integration with Windows Server and MySQL for reliable and scalable data storage
+# Architecture of The Application 
+<div class="gallery">
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/architecture.PNG" alt="login" >
+</div>
 
+# 👀 More Information
+If you want to discover more details about the project, the links below contains respectively a report, presentation and a demo Video.
+
+📌 Report : https://drive.google.com/file/d/1qi0vJbftgrf9-BV3gDbNHwgaitBzVtoD/view?usp=share_link
+📌 Demo Video : https://drive.google.com/file/d/14ulGhFE37tBcZhECpEbAIIHQuBgXQvaa/view?usp=share_link
+📌 Presentation : https://drive.google.com/file/d/14ulGhFE37tBcZhECpEbAIIHQuBgXQvaa/view?usp=share_link
+# Screenshots 
+<div class="gallery">
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/login.PNG" alt="login" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/register.PNG" alt="register" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/1.PNG" alt="image" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/2.PNG" alt="image" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/3.PNG" alt="image" >
+    <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/4.PNG" alt="image" >
+</div>
