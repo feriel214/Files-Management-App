@@ -1,0 +1,137 @@
+<!doctype html>
+<html
+	lang="en">
+
+
+	<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:44:42 GMT -->
+	<head>
+		<title>Interface insciption</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<meta name="description" content="Lucid Bootstrap 4.1.1 Admin Template">
+		<meta name="author" content="WrapTheme, design by: ThemeMakker.com">
+
+		<link
+		rel="icon" href="favicon.ico" type="image/x-icon">
+		<!-- VENDOR CSS -->
+		<link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}">
+		<link
+		rel="stylesheet" href="{{asset('assets/vendor/font-awesome/css/font-awesome.min.css')}}">
+
+		<!-- MAIN CSS -->
+		<link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+		<link rel="stylesheet" href="{{asset('assets/css/color_skins.css')}}">
+	</head>
+	<style type="text/css" media="screen">
+		.auth-main::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 400px;
+			height: 100%;
+			z-index: -1;
+			background: #191f28 !important;
+		}
+
+		body {
+			background-color: #ffffff !important;
+
+
+		}
+
+		.btn-primary {
+			color: #fff;
+			background-color: #131760;
+			border-color: #131761;
+
+		}
+	</style>
+
+	<body
+		class="theme-cyan">
+		<!-- WRAPPER -->
+		<div id="wrapper">
+			<div class="vertical-align-wrap">
+				<div class="">
+					<div class="auth-boxss">
+						<div
+							class="top">{#  <img src="https://www.ilae.org/img/logo.gif" alt="Lucid"> #}
+						</div>
+						<div class="card">
+
+							<div class="body">
+								<div class="row">
+
+									<div class="col-lg-4"></div>
+									<div class="col-lg-4">
+										<br><br>
+										<br><br>
+
+										<center><img width="200" src="https://femmesetrealites.com.tn/fr/wp-content/uploads/2017/04/poste-680x400.jpg"></center>
+										<br><br>
+										<form class="form-auth-small" action="{{path('fos_user_security_check')}}" method="post">
+
+
+											{% if error %}
+												<div class="alert alert-danger">
+
+													<div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
+
+												</div>
+											{% endif %}
+
+											<input type="hidden" name="go_to" value="redirectlogin"/>
+											<input type="hidden" name="back_to" value="logindocteur"/>
+
+											<input type="hidden" name="_csrf_token" value="{{ csrf_token('authenticate') }}"/>
+
+											<div class="form-group">
+												<label for="signin-email" class="control-label sr-only">Login</label>
+												<input type="text" class="form-control" id="signin-email" name="_username" type="text" value="{{ last_username }}" placeholder="Login">
+											</div>
+											<div class="form-group">
+												<label for="signin-password" class="control-label sr-only">Password</label>
+												<input type="password" class="form-control" name="_password" id="signin-password" value="" placeholder="Password">
+											</div>
+											<div class="form-group clearfix">
+												<label class="fancy-checkbox element-left">
+													<input type="checkbox" id="remember_me" name="_remember_me" value="on">
+													<span>Remember me</span>
+												</label>
+											</div>
+											<button type="submit" class="btn btn-primary btn-lg btn-block">LOGIN</button>
+											<div class="bottom">
+												<span class="helper-text m-b-10">
+													<i class="fa fa-lock"></i>
+													<a href="#">Forgot password?</a>
+												</span>
+												<span>Don't have an account?
+													<a href="{{path('insciption')}}">Register</a>
+												</span>
+											</div>
+										</form>
+
+
+									</div>
+
+									<div class="col-lg-4"><br><br><br>
+
+
+									</div>
+
+
+								</div>
+
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- END WRAPPER -->
+		</body>
+		<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:44:42 GMT -->
+	</body>
+</html>

@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:44:42 GMT -->
+<head>
+<title>Interface inscription</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<meta name="description" content="Lucid Bootstrap 4.1.1 Admin Template">
+<meta name="author" content="WrapTheme, design by: ThemeMakker.com">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<!-- VENDOR CSS -->
+<link rel="stylesheet" href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/vendor/font-awesome/css/font-awesome.min.css')}}">
+<link rel="stylesheet" href="{{asset('assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')}}">
+
+<!-- MAIN CSS -->
+<link rel="stylesheet" href="{{asset('assets/css/main.css')}}">
+<link rel="stylesheet" href="{{asset('assets/css/color_skins.css')}}">
+</head>
+<style type="text/css" media="screen">
+	.auth-main::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 400px;
+    height: 100%;
+    z-index: -1;
+    background: #191f28 !important;
+}
+</style>
+
+<body class="theme-cyan">
+	<!-- WRAPPER -->
+	<div id="wrapper">
+		<div class="vertical-align-wrap">
+			<div class="vertical-align-middle auth-main" >
+				<div class="auth-box">
+                    <div class="top">
+                       {#  <img src="http://www.wrraptheme.com/templates/lucid/hospital/assets/images/logo-white.svg" alt="Lucid"> #}
+                    </div>
+					<div class="card">
+                        <div class="header">
+                            <p class="lead">Create an account</p>
+                        </div>
+                        <div class="body">
+
+                            {% for flashMessage in app.session.flashbag.get('adddoctor') %}
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">x</span>
+                    <span class="sr-only">Close</span></button>
+               {{ flashMessage }}
+            </div>
+        {% endfor %}
+
+
+
+                            {% for flashMessage in app.session.flashbag.get('erraddarchi') %}
+            <div class="alert alert-danger" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">x</span>
+                    <span class="sr-only">Close</span></button>
+               {{ flashMessage }}
+            </div>
+        {% endfor %}
+
+
+
+                            <form class="form-auth-small" action="{{path('adddoctor')}}" method="post">
+
+                            	  <div class="form-group">
+                                    <input required="" type="text" class="form-control" id="signin-email" name="name" type="text"
+                                       placeholder="Name">
+                                </div>
+
+                              <div class="form-group">
+                                    <label for="signin-email" class="control-label sr-only">Email</label>
+                                    <input required="" type="email" class="form-control" id="signin-email" name="email" type="text"
+                                       placeholder="Email">
+                                </div>
+
+
+                                  <div class="form-group">
+                                    <input required="" type="text" class="form-control" id="signin-email" name="phone" type="text"
+                                       placeholder="Phone">
+                                </div>
+  <div class="form-group">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="icon-calendar"></i></span>
+                                                    </div>
+                                                    <input required="" name="birthdate" data-provide="datepicker" data-date-autoclose="true" class="form-control" placeholder="Birthdate">
+                                                </div>
+                                            </div>
+
+                                  <div class="form-group">
+            <select required="" class="form-control" name="pays">
+         <option value="">-- Select Country --</option>
+
+         {% for p in pays %}
+
+
+
+        <option  value="{{p.nomFrFr}}">{{p.nomFrFr}}</option>
+                                                  {% endfor %}
+                                                </select>
+                                            </div>
+
+
+                                   <div class="form-group">
+                                    <input required="" type="text" class="form-control" id="signin-email" name="country" type="text"
+                                       placeholder="Country">
+                                </div>
+
+<div class="form-group">
+                                    <input required="" type="text" class="form-control" id="signin-email" name="address" type="text"
+                                       placeholder="Address">
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="signin-email" class="control-label sr-only">Login</label>
+                                    <input required="" type="text" class="form-control" id="signin-email" name="username" type="text"
+                                       placeholder="Login">
+                                </div>
+                                <div class="form-group">
+                                    <label for="signin-password" class="control-label sr-only">Password</label>
+                                    <input required="" type="password" class="form-control" name="password" id="signin-password" value="" placeholder="Password">
+                                </div>
+                               
+                                <button type="submit" class="btn btn-primary btn-lg btn-block">Register</button>
+                                <div class="bottom">
+                                    <span class="helper-text m-b-10"><i class="fa fa-lock"></i> <a href="#">Forgot password?</a></span>
+                                    <span>Already have an account? <a href="{{path('logindocteur')}}">Login</a></span>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- END WRAPPER -->
+    <script src="{{asset('assets/bundles/libscripts.bundle.js')}}"></script>    
+<script src="{{asset('assets/bundles/vendorscripts.bundle.js')}}"></script>
+
+<script src="{{asset('assets/bundles/mainscripts.bundle.js')}}"></script>
+
+
+<script src="{{asset('assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}"></script>
+</body>
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-login.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:44:42 GMT -->
+</html>

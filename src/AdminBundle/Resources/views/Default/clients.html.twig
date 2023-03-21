@@ -1,0 +1,193 @@
+{% extends ('AdminBundle:layouts:layouts.html.twig') %}
+{% block body %}
+
+
+    <div id="main-content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-lg-6 col-md-8 col-sm-12">
+                        <h2><a href="javascript:void(0);" class="btn btn-xs btn-link btn-toggle-fullwidth"><i class="fa fa-arrow-left"></i></a> List of clients</h2>
+                        <ul class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html"><i class="icon-home"></i></a></li>                            
+                            <li class="breadcrumb-item">Dashbord</li>
+                            <li class="breadcrumb-item active">List of clients</li>
+                        </ul>
+                    </div>            
+                    <div class="col-lg-6 col-md-4 col-sm-12 text-right">
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="row clearfix">
+            	                                        <div class="col-lg-12 col-md-12">
+
+<div class="tab-content padding-0">
+
+                        <div class="tab-pane active" id="Basic">
+                            <div class="card">
+                                <div class="body">
+                               <div class="col-lg-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>List of clients
+                             </h2>                            
+                        </div>
+                        <div class="body">
+                            <div class="table-responsive">
+
+
+
+                             {% for flashMessage in app.session.flashbag.get('delete') %}
+            <div class="alert alert-success" role="alert">
+                <button type="button" class="close" data-dismiss="alert"><span aria-hidden="true">x</span>
+                    <span class="sr-only">Close</span></button>
+               {{ flashMessage }}
+            </div>
+        {% endfor %}
+                                <table class="table table-hover js-basic-example dataTable table-custom">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <th>Photo</th>
+                                            <th>Name</th>
+                                            <th>Email</th>
+                                            <th>Phone</th>
+
+                                             <th>Statut</th>
+                                             <th>Delete</th>
+
+                                          
+                                        </tr>
+                                    </thead>
+                                    <tfoot>
+                                        <tr>
+                                            <th>Photo</th>
+                                           <th>Name</th>
+                                            <th>Email</th>
+                                            <th>Phone</th>
+
+                                            <th>Statut</th>
+                                                                                 <th>Delete</th>
+        
+                                        </tr>
+                                    </tfoot>
+                                    <tbody>
+                                        {% for c in clients %}
+{% if c.username != "admin" %}
+
+                                        <tr>
+
+                                            <td>
+
+
+
+
+{% if c.photo != null %}
+
+                <img width="80" src="{{asset('uploads/clients/')}}{{c.photo}}" class="rounded-circle user-photo" alt="User Profile Picture">
+
+{% else %}
+
+
+
+      <img width="80" src="https://img.favpng.com/25/7/23/computer-icons-user-profile-avatar-image-png-favpng-LFqDyLRhe3PBXM0sx2LufsGFU.jpg" class="rounded-circle user-photo" alt="User Profile Picture">
+
+   {% endif %} 
+
+
+
+                                            </td>
+                                            <td>{{c.name}}</td>
+                                            <td>{{c.email}}</td>
+                                            <td>{{c.phone}}</td>
+ <td>
+
+
+{% if c.enabled == 1 %}
+
+
+Activate <a class="btn btn-danger" href="{{ path('desactiveruser', { 'id': c.id }) }}">Enabled</a>
+
+{% else %}
+
+Enabled  <a class="btn btn-success" href="{{ path('activeruser', { 'id': c.id }) }}">Enabled</a>
+
+{% endif %}
+
+
+
+
+
+</td>
+                                               <td><a  data-toggle="modal" data-target="#delete-close-modal{{c.id}}"><i class="fa fa-trash"></i></a>
+
+
+
+
+
+                                <div id="delete-close-modal{{c.id}}" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                                    <form action="{{path('deleteuseradmin')}}" method="POST">
+
+
+
+                                        <div class="modal-dialog">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h4 class="modal-title">
+
+                                                        Delete user ?
+                                                    </h4>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                </div>
+                                                <div class="">
+
+                                                    <input type="hidden" name="id" value="{{c.id}}">
+
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary waves-effect" data-dismiss="modal">Non</button>
+                                                        <button type="submit" class="btn btn-info waves-effect waves-light">Oui</button>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div><!-- /.modal -->
+
+
+
+
+
+
+
+
+                            </td>      
+
+                                           
+                                        </tr>
+
+                                        {% endif %}
+                                      {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                            </div>
+                        </div>
+                       
+                       
+
+                    </div>
+                   
+
+            </div>
+        </div>
+    </div>
+</div>
+
+	{% endblock %}

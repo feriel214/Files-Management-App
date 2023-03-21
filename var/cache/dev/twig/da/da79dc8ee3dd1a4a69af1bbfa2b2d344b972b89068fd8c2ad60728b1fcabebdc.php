@@ -1,0 +1,669 @@
+<?php
+
+/* AdminBundle:layouts:layouts.html.twig */
+class __TwigTemplate_3530ef9341fa817dbdce66d247a59c3c495cbff71bcd2ac4d14f14d25cbb5ae3 extends Twig_Template
+{
+    public function __construct(Twig_Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->parent = false;
+
+        $this->blocks = [
+            'stylesheets' => [$this, 'block_stylesheets'],
+            'body' => [$this, 'block_body'],
+            'js' => [$this, 'block_js'],
+        ];
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:layouts:layouts.html.twig"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AdminBundle:layouts:layouts.html.twig"));
+
+        // line 1
+        echo "<!doctype html>
+<html lang=\"en\">
+
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:46:56 GMT -->
+<head>
+<title>Interface admin</title>
+<meta charset=\"utf-8\">
+<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">
+<meta name=\"description\" content=\"Lucid Bootstrap 4.1.1 Admin Template\">
+<meta name=\"author\" content=\"WrapTheme, design by: ThemeMakker.com\">
+
+<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\">
+<!-- VENDOR CSS -->
+  ";
+        // line 16
+        $this->displayBlock('stylesheets', $context, $blocks);
+        // line 31
+        echo "</head>
+<body class=\"theme-cyan\">
+
+    <!-- Page Loader -->
+
+<!-- Overlay For Sidebars -->
+
+<div id=\"wrapper\">
+
+    <nav class=\"navbar navbar-fixed-top\">
+        <div class=\"container-fluid\">
+            <div class=\"navbar-btn\">
+                <button type=\"button\" class=\"btn-toggle-offcanvas\"><i class=\"lnr lnr-menu fa fa-bars\"></i></button>
+            </div>
+<style type=\"text/css\" media=\"screen\">
+   .navbar-fixed-top .navbar-brand img {
+
+    width: 230px;
+
+   } 
+   .navbar{
+
+
+    background: #e5bf3a;
+   }
+   #left-sidebar{
+    background: #0b215c;
+
+
+   }
+   .navbar-nav .icon-menu .notification-dot {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #b31f3c;
+
+}
+.theme-cyan .sidebar-nav .metismenu>li i {
+    color: white;
+}
+   .sidebar-nav .metismenu a {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #ffffff;
+}
+.navbar-nav .icon-menu i {
+    font-size: 18px;
+    color: #fff;
+}
+.theme-cyan:before, .theme-cyan:after {
+    background: #222222;
+}
+.theme-cyan:before, .theme-cyan:after {
+    background: #222222;
+ 
+}
+.theme-cyan #wrapper:before, .theme-cyan #wrapper:after {
+    background: #222222;
+}
+
+#left-sidebar {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 230px;
+
+
+    }
+
+    .theme-cyan .sidebar-nav .metismenu>li.active>a {
+    border-left-color: #1d1e23;
+}
+.sidebar-nav .metismenu>li.active>a {
+    background-color: #1d1e23;
+}
+</style>
+            <div class=\"navbar-brand\" style=\"    background: white;    margin-left: -10px;
+    background: white;
+    width: 230px;\">
+                <a href=\"#\"><img style=\"width:120px;\" src=\"data:image/jpeg;base64,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\" alt=\"Lucid Logo\" class=\"img-responsive logo\"></a>               
+            </div>
+            
+            <div class=\"navbar-right\">
+                              
+                <div id=\"navbar-menu\">
+                    <ul class=\"nav navbar-nav\">
+                        
+                       
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0);\" class=\"dropdown-toggle icon-menu\" data-toggle=\"dropdown\">
+                                <i class=\"icon-bell\"></i>
+                                <span class=\"notification-dot\"></span>
+                            </a>
+                            <ul class=\"dropdown-menu notifications\">
+                                <li class=\"header\"><strong>You have 4 new Notifications</strong></li>
+                                ";
+        // line 143
+        echo "                    
+                               
+                               
+                                <li class=\"footer\"><a href=\"javascript:void(0);\" class=\"more\">See all notifications</a></li>
+                            </ul>
+                        </li>
+                       
+                        <li>
+                            <a href=\"";
+        // line 151
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_security_logout");
+        echo "\" class=\"icon-menu\"><i class=\"icon-login\"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id=\"left-sidebar\" class=\"sidebar\">
+        <div class=\"sidebar-scroll\">
+            
+
+
+
+
+
+                               ";
+        // line 167
+        echo $this->env->getRuntime('Symfony\Bridge\Twig\Extension\HttpKernelRuntime')->renderFragment($this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("getname"));
+        echo "
+
+            <!-- Nav tabs -->
+          
+                
+            <!-- Tab panes -->
+            <div class=\"tab-content p-l-0 p-r-0\">
+                <div class=\"tab-pane active\" id=\"menu\">
+                    <nav class=\"sidebar-nav\">
+                        <ul class=\"main-menu metismenu\">
+                            <li ><a href=\"";
+        // line 177
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("dashbordadmin");
+        echo "\"><i class=\"icon-home\"></i><span>Dashboard</span></a></li>
+                            <li><a href=\"";
+        // line 178
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("adminclients");
+        echo "\"><i class=\"icon-calendar\"></i>Clients</a></li>
+                           
+ <li><a href=\"";
+        // line 180
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("uploadsfilesadmin");
+        echo "\"><i class=\"icon-bubbles\"></i>Uploads files</a></li>
+                         <li><a href=\"";
+        // line 181
+        echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("adminfiles");
+        echo "\"><i class=\"icon-calendar\"></i>Files</a></li>
+                           
+                          
+                        </ul>
+                    </nav>
+                </div>
+              
+              
+                         
+            </div>          
+        </div>
+    </div>
+    <br>
+    <br>
+  ";
+        // line 195
+        $this->displayBlock('body', $context, $blocks);
+        // line 204
+        echo "</div>
+                ";
+        // line 205
+        $this->displayBlock('js', $context, $blocks);
+        // line 235
+        echo "
+</body>
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:46:56 GMT -->
+</html>
+";
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+    }
+
+    // line 16
+    public function block_stylesheets($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+
+        // line 17
+        echo "<link rel=\"stylesheet\" href=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/bootstrap/css/bootstrap.min.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 18
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/font-awesome/css/font-awesome.min.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 19
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css"), "html", null, true);
+        echo "\">
+
+<!-- MAIN CSS -->
+<link rel=\"stylesheet\" href=\"";
+        // line 22
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/css/main.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 23
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/css/color_skins.css"), "html", null, true);
+        echo "\">
+
+
+<link rel=\"stylesheet\" href=\"";
+        // line 26
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/dataTables.bootstrap4.min.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 27
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css"), "html", null, true);
+        echo "\">
+<link rel=\"stylesheet\" href=\"";
+        // line 28
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/fixedeader/dataTables.fixedheader.bootstrap4.min.css"), "html", null, true);
+        echo "\">
+
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 195
+    public function block_body($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+
+        // line 196
+        echo "<style>
+
+#main-content{
+
+    padding: 20px !important
+}
+</style>
+     ";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    // line 205
+    public function block_js($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "js"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "js"));
+
+        // line 206
+        echo "
+<!-- Javascript -->
+<script src=\"";
+        // line 208
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/bundles/libscripts.bundle.js"), "html", null, true);
+        echo "\"></script>    
+<script src=\"";
+        // line 209
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/bundles/vendorscripts.bundle.js"), "html", null, true);
+        echo "\"></script>
+
+<script src=\"";
+        // line 211
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/bundles/mainscripts.bundle.js"), "html", null, true);
+        echo "\"></script>
+
+
+<script src=\"";
+        // line 214
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js"), "html", null, true);
+        echo "\"></script>
+
+    
+
+
+
+
+
+<script src=\"";
+        // line 222
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/bundles/datatablescripts.bundle.js"), "html", null, true);
+        echo "\"></script>
+<script src=\"";
+        // line 223
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js"), "html", null, true);
+        echo "\"></script>
+<script src=\"";
+        // line 224
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js"), "html", null, true);
+        echo "\"></script>
+<script src=\"";
+        // line 225
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js"), "html", null, true);
+        echo "\"></script>
+<script src=\"";
+        // line 226
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/buttons/buttons.html5.min.js"), "html", null, true);
+        echo "\"></script>
+<script src=\"";
+        // line 227
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/vendor/jquery-datatable/buttons/buttons.print.min.js"), "html", null, true);
+        echo "\"></script>
+
+<script src=\"";
+        // line 229
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("assets/js/pages/tables/jquery-datatable.js"), "html", null, true);
+        echo "\"></script>
+
+
+
+
+                    ";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "AdminBundle:layouts:layouts.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  388 => 229,  383 => 227,  379 => 226,  375 => 225,  371 => 224,  367 => 223,  363 => 222,  352 => 214,  346 => 211,  341 => 209,  337 => 208,  333 => 206,  324 => 205,  307 => 196,  298 => 195,  285 => 28,  281 => 27,  277 => 26,  271 => 23,  267 => 22,  261 => 19,  257 => 18,  252 => 17,  243 => 16,  228 => 235,  226 => 205,  223 => 204,  221 => 195,  204 => 181,  200 => 180,  195 => 178,  191 => 177,  178 => 167,  159 => 151,  149 => 143,  47 => 31,  45 => 16,  28 => 1,);
+    }
+
+    /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
+    public function getSource()
+    {
+        @trigger_error('The '.__METHOD__.' method is deprecated since version 1.27 and will be removed in 2.0. Use getSourceContext() instead.', E_USER_DEPRECATED);
+
+        return $this->getSourceContext()->getCode();
+    }
+
+    public function getSourceContext()
+    {
+        return new Twig_Source("<!doctype html>
+<html lang=\"en\">
+
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:46:56 GMT -->
+<head>
+<title>Interface admin</title>
+<meta charset=\"utf-8\">
+<meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\">
+<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0\">
+<meta name=\"description\" content=\"Lucid Bootstrap 4.1.1 Admin Template\">
+<meta name=\"author\" content=\"WrapTheme, design by: ThemeMakker.com\">
+
+<link rel=\"icon\" href=\"favicon.ico\" type=\"image/x-icon\">
+<!-- VENDOR CSS -->
+  {% block stylesheets %}
+<link rel=\"stylesheet\" href=\"{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}\">
+<link rel=\"stylesheet\" href=\"{{asset('assets/vendor/font-awesome/css/font-awesome.min.css')}}\">
+<link rel=\"stylesheet\" href=\"{{asset('assets/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.min.css')}}\">
+
+<!-- MAIN CSS -->
+<link rel=\"stylesheet\" href=\"{{asset('assets/css/main.css')}}\">
+<link rel=\"stylesheet\" href=\"{{asset('assets/css/color_skins.css')}}\">
+
+
+<link rel=\"stylesheet\" href=\"{{asset('assets/vendor/jquery-datatable/dataTables.bootstrap4.min.css')}}\">
+<link rel=\"stylesheet\" href=\"{{asset('assets/vendor/jquery-datatable/fixedeader/dataTables.fixedcolumns.bootstrap4.min.css')}}\">
+<link rel=\"stylesheet\" href=\"{{asset('assets/vendor/jquery-datatable/fixedeader/dataTables.fixedheader.bootstrap4.min.css')}}\">
+
+{% endblock %}
+</head>
+<body class=\"theme-cyan\">
+
+    <!-- Page Loader -->
+
+<!-- Overlay For Sidebars -->
+
+<div id=\"wrapper\">
+
+    <nav class=\"navbar navbar-fixed-top\">
+        <div class=\"container-fluid\">
+            <div class=\"navbar-btn\">
+                <button type=\"button\" class=\"btn-toggle-offcanvas\"><i class=\"lnr lnr-menu fa fa-bars\"></i></button>
+            </div>
+<style type=\"text/css\" media=\"screen\">
+   .navbar-fixed-top .navbar-brand img {
+
+    width: 230px;
+
+   } 
+   .navbar{
+
+
+    background: #e5bf3a;
+   }
+   #left-sidebar{
+    background: #0b215c;
+
+
+   }
+   .navbar-nav .icon-menu .notification-dot {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #b31f3c;
+
+}
+.theme-cyan .sidebar-nav .metismenu>li i {
+    color: white;
+}
+   .sidebar-nav .metismenu a {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    color: #ffffff;
+}
+.navbar-nav .icon-menu i {
+    font-size: 18px;
+    color: #fff;
+}
+.theme-cyan:before, .theme-cyan:after {
+    background: #222222;
+}
+.theme-cyan:before, .theme-cyan:after {
+    background: #222222;
+ 
+}
+.theme-cyan #wrapper:before, .theme-cyan #wrapper:after {
+    background: #222222;
+}
+
+#left-sidebar {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 230px;
+
+
+    }
+
+    .theme-cyan .sidebar-nav .metismenu>li.active>a {
+    border-left-color: #1d1e23;
+}
+.sidebar-nav .metismenu>li.active>a {
+    background-color: #1d1e23;
+}
+</style>
+            <div class=\"navbar-brand\" style=\"    background: white;    margin-left: -10px;
+    background: white;
+    width: 230px;\">
+                <a href=\"#\"><img style=\"width:120px;\" src=\"data:image/jpeg;base64,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\" alt=\"Lucid Logo\" class=\"img-responsive logo\"></a>               
+            </div>
+            
+            <div class=\"navbar-right\">
+                              
+                <div id=\"navbar-menu\">
+                    <ul class=\"nav navbar-nav\">
+                        
+                       
+                        <li class=\"dropdown\">
+                            <a href=\"javascript:void(0);\" class=\"dropdown-toggle icon-menu\" data-toggle=\"dropdown\">
+                                <i class=\"icon-bell\"></i>
+                                <span class=\"notification-dot\"></span>
+                            </a>
+                            <ul class=\"dropdown-menu notifications\">
+                                <li class=\"header\"><strong>You have 4 new Notifications</strong></li>
+                                {# <li>
+                                    <a href=\"javascript:void(0);\">
+                                        <div class=\"media\">
+                                            <div class=\"media-left\">
+                                                <i class=\"icon-info text-warning\"></i>
+                                            </div>
+                                            <div class=\"media-body\">
+                                                <p class=\"text\">Campaign <strong>Holiday Sale</strong> is nearly reach budget limit.</p>
+                                                <span class=\"timestamp\">10:00 AM Today</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>            #}                    
+                               
+                               
+                                <li class=\"footer\"><a href=\"javascript:void(0);\" class=\"more\">See all notifications</a></li>
+                            </ul>
+                        </li>
+                       
+                        <li>
+                            <a href=\"{{path('fos_user_security_logout')}}\" class=\"icon-menu\"><i class=\"icon-login\"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id=\"left-sidebar\" class=\"sidebar\">
+        <div class=\"sidebar-scroll\">
+            
+
+
+
+
+
+                               {{ render(path('getname')) }}
+
+            <!-- Nav tabs -->
+          
+                
+            <!-- Tab panes -->
+            <div class=\"tab-content p-l-0 p-r-0\">
+                <div class=\"tab-pane active\" id=\"menu\">
+                    <nav class=\"sidebar-nav\">
+                        <ul class=\"main-menu metismenu\">
+                            <li ><a href=\"{{path('dashbordadmin')}}\"><i class=\"icon-home\"></i><span>Dashboard</span></a></li>
+                            <li><a href=\"{{path('adminclients')}}\"><i class=\"icon-calendar\"></i>Clients</a></li>
+                           
+ <li><a href=\"{{path('uploadsfilesadmin')}}\"><i class=\"icon-bubbles\"></i>Uploads files</a></li>
+                         <li><a href=\"{{path('adminfiles')}}\"><i class=\"icon-calendar\"></i>Files</a></li>
+                           
+                          
+                        </ul>
+                    </nav>
+                </div>
+              
+              
+                         
+            </div>          
+        </div>
+    </div>
+    <br>
+    <br>
+  {% block body %}
+<style>
+
+#main-content{
+
+    padding: 20px !important
+}
+</style>
+     {% endblock %}
+</div>
+                {% block js %}
+
+<!-- Javascript -->
+<script src=\"{{asset('assets/bundles/libscripts.bundle.js')}}\"></script>    
+<script src=\"{{asset('assets/bundles/vendorscripts.bundle.js')}}\"></script>
+
+<script src=\"{{asset('assets/bundles/mainscripts.bundle.js')}}\"></script>
+
+
+<script src=\"{{asset('assets/vendor/bootstrap-datepicker/js/bootstrap-datepicker.min.js')}}\"></script>
+
+    
+
+
+
+
+
+<script src=\"{{asset('assets/bundles/datatablescripts.bundle.js')}}\"></script>
+<script src=\"{{asset('assets/vendor/jquery-datatable/buttons/dataTables.buttons.min.js')}}\"></script>
+<script src=\"{{asset('assets/vendor/jquery-datatable/buttons/buttons.bootstrap4.min.js')}}\"></script>
+<script src=\"{{asset('assets/vendor/jquery-datatable/buttons/buttons.colVis.min.js')}}\"></script>
+<script src=\"{{asset('assets/vendor/jquery-datatable/buttons/buttons.html5.min.js')}}\"></script>
+<script src=\"{{asset('assets/vendor/jquery-datatable/buttons/buttons.print.min.js')}}\"></script>
+
+<script src=\"{{asset('assets/js/pages/tables/jquery-datatable.js')}}\"></script>
+
+
+
+
+                    {% endblock %}
+
+</body>
+
+<!-- Mirrored from www.wrraptheme.com/templates/lucid/hospital/light/page-blank.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 05 Mar 2019 14:46:56 GMT -->
+</html>
+", "AdminBundle:layouts:layouts.html.twig", "C:\\wamp64\\www\\soumaya\\src\\AdminBundle/Resources/views/layouts/layouts.html.twig");
+    }
+}

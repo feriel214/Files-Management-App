@@ -1,0 +1,14 @@
+
+
+
+$ftp_host   = '192.168.11.140';
+$ftp_username = 'myftpserver';
+$ftp_password = 'Soumayaakil123';
+ // open an FTP connection
+$conn_id = ftp_connect($ftp_host) or die("Couldn't connect to $ftp_host");
+ // try to login
+if(@ftp_login($conn_id, $ftp_username, $ftp_password)){
+    echo "Connected as $ftp_username@$ftp_host";
+}else{
+    echo "Couldn't connect as $ftp_username";
+}

@@ -1,0 +1,29 @@
+<div class="user-account">
+
+<br>
+
+{% if user.photo != null %}
+
+                <img style="width:150px" src="{{asset('uploads/clients/')}}{{user.photo}}" class=" user-photo" alt="User Profile Picture">
+
+{% else %}
+
+
+
+      <img src="{{asset('user.jpg')}}" class="rounded-circle user-photo" alt="User Profile Picture">
+
+   {% endif %} 
+
+
+
+                <div class="dropdown"  style="color:white;" >
+                    <span style="color:white">Welcome,</span>
+                    <a hr ef="javascript:void(0);" class="dropdown-toggle user-name" data-toggle="dropdown"><strong> {{user.name}}</strong></a>
+                    <ul class="dropdown-menu dropdown-menu-right account">
+                       
+                        <li><a href="{{path('fos_user_security_logout')}}"><i class="icon-power"></i>Logout</a></li>
+                    </ul>
+                </div>
+                <hr>
+                
+            </div>
