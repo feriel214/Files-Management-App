@@ -25,9 +25,9 @@ The application allows for managing and sharing files securely between several d
 # 👀 More Information
 If you want to discover more details about the project, the links below contains respectively a report, presentation and a demo Video.
 
-📌 Report : https://drive.google.com/file/d/1qi0vJbftgrf9-BV3gDbNHwgaitBzVtoD/view?usp=share_link
-📌 Demo Video : https://drive.google.com/file/d/14ulGhFE37tBcZhECpEbAIIHQuBgXQvaa/view?usp=share_link
-📌 Presentation : https://drive.google.com/file/d/14ulGhFE37tBcZhECpEbAIIHQuBgXQvaa/view?usp=share_link
+- 📌 Report : https://drive.google.com/file/d/1Due7qg-B5aX5_JSQJqOq6KagQw9DgaHZ/view?usp=share_link
+- 📌 Demo Video : https://drive.google.com/file/d/1SeLe-q3s92DzaER4OIZ_mLkG4ChR2q26/view?usp=share_link
+- 📌 Presentation : https://drive.google.com/file/d/1fLnIKHGjpmlj1pHuLnLnXebQ3U1EzmkR/view?usp=share_link
 # Screenshots 
 <div class="gallery">
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/login.PNG" alt="login" >
@@ -37,3 +37,9 @@ If you want to discover more details about the project, the links below contains
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/3.PNG" alt="image" >
     <img src="https://github.com/feriel214/Files-Management-App/blob/main/screenshots/4.PNG" alt="image" >
 </div>
+
+# Contributing
+If you want to contribute to this project, feel free to fork the repository and submit a pull request.
+
+# ✨ Let’s Connect and Build Something Amazing Together
+- Reach me out on LinkedIn: https://www.linkedin.com/in/feriel-zarrouki-1ba917186/
